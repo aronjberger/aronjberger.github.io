@@ -176,7 +176,7 @@ params:
         #  id: somevalue
         # # GoatCounter
         goatCounter:
-          code: aronbergercom
+          code: aronberger
         # # Matomo / Piwik
         # matomo:
         #   instance: matomo.example.com
