@@ -10,13 +10,13 @@ section:
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Technology
-  filter: "technology"
-- name: Physical
-  filter: "physical"
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Technology
+#   filter: "technology"
+# - name: Physical
+#   filter: "physical"
 
 # Your Skills.
 # Give a summary of you each skill in the summary section.
@@ -61,16 +61,16 @@ skills:
   logo: /images/sections/skills/Matlab.png
   categories: ["technology"]
   url: "https://www.mathworks.com/products/matlab.html"
-- name: Circuit Design
-  categories: ["physical"]
-- name: Breadboarding
-  categories: ["physical"]
-- name: Soldering
-  categories: ["physical"]
-- name: 3D Printing
-  categories: ["physical"]
-- name: Woodworking
-  categories: ["physical"]
+# - name: Circuit Design
+#   categories: ["physical"]
+# - name: Breadboarding
+#   categories: ["physical"]
+# - name: Soldering
+#   categories: ["physical"]
+# - name: 3D Printing
+#   categories: ["physical"]
+# - name: Woodworking
+#   categories: ["physical"]
 
 # - name: Kubernetes
 #   logo: /images/sections/skills/kubernetes.png
