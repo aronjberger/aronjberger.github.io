@@ -8,20 +8,34 @@ jobs:
   update-theme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4.1.1
         with:
           ref: main
 
-      # Setup mise
-      - uses: jdx/mise-action@v3
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
 
-      - name: Install dependencies
-        run: |
-          mise run install # install theme dependency
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3.0.0
+        with:
+          hugo-version: "latest"
+          extended: true
 
-      - name: Update theme to latest commit
+      - name: Update hugo modules
         run: |
-          mise run update-to-main
+          # update to latest version of all modules
+          hugo mod get -u
+
+          # update the npm dependencies
+          hugo mod npm pack
+
+          # cleanup go.sum file
+          hugo mod tidy
+
+      - name: Install node modules
+        run: npm install
 
       - name: Build
         run: |
@@ -31,7 +45,7 @@ jobs:
           rm -rf public/
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v8
+        uses: peter-evans/create-pull-request@v7
         with:
           base: main
           title: Update theme
