@@ -20,7 +20,7 @@ degrees:
     darkLogo: /images/sections/education/UC.jpeg
   grade:
     scale: GPA
-    achieved: "3.99"
+    achieved: "3.95"
     outOf: "4.0"
   takenCourses:
     showGrades: false
