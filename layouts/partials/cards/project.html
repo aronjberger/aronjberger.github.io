@@ -10,11 +10,13 @@
         <div class="card-head">
           {{ $imageImage:= resources.Get .image}}
           {{ if $imageImage }}
-            {{/*  svg don't support "Fit" operation   */}}
+            {{/* svg don't support "Fit" operation */}}
             {{ if ne $imageImage.MediaType.SubType "svg" }}
-              {{ $imageImage = $imageImage.Fit "1000x1000" }}
-            {{ end }}
-            <img class="card-img-top" src="{{ $imageImage.RelPermalink }}" alt="{{ .name }}" />
+            {{ $imageImage = $imageImage.Fit "500x500" }}
+             {{ end }}
+             <img class="card-img-top" src="{{ $imageImage.RelPermalink }}" alt="{{ .name }}" loading="lazy" {{ if ne
+            $imageImage.MediaType.SubType "svg" }}width="{{ $imageImage.Width }}" height="{{ $imageImage.Height }}" {{
+            end }} />
           {{ end }}
         </div>
         {{ end }}
@@ -30,13 +32,15 @@
                 {{ else }}
 
                   {{ $logoImage:= resources.Get .logo}}
-                    {{ if $logoImage }}
-                      {{/*  svg don't support "Fit" operation   */}}
-                      {{ if ne $logoImage.MediaType.SubType "svg" }}
-                        {{ $logoImage = $logoImage.Fit "24x24" }}
-                      {{ end }}
-                      <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
-                    {{ end }}
+                  {{ if $logoImage }}
+                  {{/* svg don't support "Fit" operation */}}
+                  {{ if ne $logoImage.MediaType.SubType "svg" }}
+                  {{ $logoImage = $logoImage.Fit "24x24" }}
+                  {{ end }}
+                  <img class="card-img-xs" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" {{ if ne
+                $logoImage.MediaType.SubType "svg" }}width="{{ $logoImage.Width }}" height="{{ $logoImage.Height }}" {{
+                end }} />
+                  {{ end }}
                   {{ end }}
 
               {{ end }}
