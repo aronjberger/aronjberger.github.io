@@ -19,11 +19,13 @@ experiences:
   positions:
   - designation: Electronics Quality Engineer
     start: Aug 2024
+    end: Apr 2026
     responsibilities:
     - Designed and implemented a PCB retrofit solution that enhanced an existing test harness, extending its functionality to support the latest cable variants.
+    - Overhauled a burn-in rack's 80-cable infrastructure, improving defect detection sensitivity and preventing subtle errors from reaching the field.
     - Strengthened electrostatic discharge safety protocols by utilizing quantitative data and industry standards to devise solutions that helped resolve critical ISO audit findings.
-    - Directed the installation and routing of all cables within a modernized burn-in rack, enhancing efficiency and improving quality for the company by detecting and recording subtle errors that might otherwise go undetected.
-    - Proactively addressed recurring issues by thoroughly reviewing and investigating customer feedback and implementing forward-thinking solutions, effectively minimizing further disruptions in the field.
+    - Automated data collection and formatting for monthly continuous-improvement meetings, reducing information analysis time by 70%.
+    - Engineered a scalable Microsoft Power Query solution to automate parts list aggregation and comparison across control unit families; replacing a manual process that degraded with complexity, improving assembly accuracy and consistency.
 
 # - company:
 #     name: Example Co.

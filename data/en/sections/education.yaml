@@ -35,24 +35,6 @@ degrees:
     - name: Semiconductor Physics
     - name: Multivariable Calculus
     - name: Differential Equations
-- name: High School Diploma
-  icon: fa-graduation-cap
-  timeframe: 2019-2023
-  institution:
-    name: Worthington Kilbourne High School
-    url: "https://wkhs.worthington.k12.oh.us"
-    logo: /images/sections/education/Worthington-Kilbourne.png
-  grade:
-    scale: GPA
-    achieved: "4.0"
-    outOf: "4.0"
-  takenCourses:
-    showGrades: false
-    collapseAfter: 4
-    courses:
-    - name: AP Calculus BC
-    - name: Digital Electronics
-    - name: Engineer Design and Development
 # - name: Ph.D in Quantum Cryptography
 #   icon: fa-microscope
 #   timeframe: 2016-2020
