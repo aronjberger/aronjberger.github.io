@@ -28,13 +28,12 @@ degrees:
     courses:
     - name: Digital Design
     - name: Electronics I
+    - name: Electronics II
     - name: Network Analysis
     - name: Signals and Systems
     - name: Semiconductor Devices
     - name: Engineer Design Thinking
     - name: Semiconductor Physics
-    - name: Multivariable Calculus
-    - name: Differential Equations
 # - name: Ph.D in Quantum Cryptography
 #   icon: fa-microscope
 #   timeframe: 2016-2020
