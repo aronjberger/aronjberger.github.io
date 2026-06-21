@@ -1,6 +1,6 @@
 # section information
 section:
-  name: Skills
+  name: Skills & Interests
   id: skills
   enable: true
   weight: 2
@@ -33,6 +33,10 @@ skills:
   logo: /images/sections/skills/c++.png
   categories: ["technology"]
   url: "https://en.wikipedia.org/wiki/C%2B%2B"
+- name: LabVIEW
+  logo: /images/sections/skills/LabVIEW.png
+  categories: ["technology"]
+  url: "https://www.ni.com/en/shop/labview?cid=PSEA-701VU00000DbXTpYAN-US-GOGSE_US+EN+LabVIEW+Brand"
 - name: Arduino
   logo: /images/sections/skills/Arduino.jpg
   categories: ["technology"]
@@ -61,6 +65,11 @@ skills:
   logo: /images/sections/skills/Matlab.png
   categories: ["technology"]
   url: "https://www.mathworks.com/products/matlab.html"
+- name: LTspice
+  logo: /images/sections/skills/LTspice.png
+  categories: ["technology"]
+  url: "https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html"
+
 # - name: Circuit Design
 #   categories: ["physical"]
 # - name: Breadboarding
