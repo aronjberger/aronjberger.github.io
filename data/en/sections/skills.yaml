@@ -61,10 +61,6 @@ skills:
   logo: /images/sections/skills/Multisim.png
   categories: ["technology"]
   url: "https://www.multisim.com"
-- name: MATLAB
-  logo: /images/sections/skills/Matlab.png
-  categories: ["technology"]
-  url: "https://www.mathworks.com/products/matlab.html"
 - name: LTspice
   logo: /images/sections/skills/LTspice.png
   categories: ["technology"]

@@ -11,6 +11,21 @@ section:
 # Your experiences
 experiences:
 - company:
+    name: Duke Energy
+    url: "https://www.duke-energy.com"
+    location: Cincinnati, Ohio
+    logo: /images/sections/experiences/Duke-Energy.jpg
+    overview: Duke Energy is one of the largest energy holding companies in the United States, providing electric and natural gas service to millions of customers across the Carolinas, Florida, Indiana, Ohio, and Kentucky.
+  positions:
+  - designation: Lighting Design Co-op
+    start: Aug 2026
+    responsibilities:
+    - Complete an average of 5 outdoor lighting designs per week for business, residential, and municipal customers, owning each project from on-site consultation through signed contract and work order release.
+    - Redesigned lighting for an underlit 4-building apartment complex, replacing 10 fixtures with 4 better-placed, better-selected units to improve coverage, eliminate photosensor cross-triggering, and cut customer cost by 75%.
+    - Perform photometric analysis to select fixtures and placement that meet footcandle and uniformity targets while minimizing light trespass onto neighboring properties.
+    - Specify fixture, wattage, and bracket hardware for each pole and design its electrical connection, calculating voltage drop and planning underground routing.
+
+- company:
     name: Valco Melton
     url: "https://valcomelton.com"
     location: Cincinnati, Ohio
